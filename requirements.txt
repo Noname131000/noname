@@ -1,0 +1,42 @@
+# Core dependencies
+python-dotenv>=1.0.0
+asyncio-mqtt>=0.13.0
+
+# Web framework and HTTP client
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+aiohttp>=3.9.0
+websockets>=12.0
+
+# Data processing and analysis
+pandas>=2.1.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Database
+sqlite3  # Built into Python
+aiosqlite>=0.19.0
+
+# Telegram bot
+python-telegram-bot>=20.6
+
+# AI/ML
+google-generativeai>=0.3.0
+
+# Cryptography and security
+cryptography>=41.0.0
+
+# Utilities
+pydantic>=2.5.0
+click>=8.1.0
+python-dateutil>=2.8.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.1.0
+
+# Production deployment (optional)
+gunicorn>=21.2.0
+supervisor>=4.2.0
